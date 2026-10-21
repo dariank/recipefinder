@@ -6,21 +6,22 @@
 
 <br/>
 
-## 📸 Скриншоты
+##  Скриншоты
 
 <div align="center">
-  <img src="./screenshots/main.png" width="100%" alt="Главная страница" />
+  <img src="./main.png" width="100%" alt="Главная страница" />
   <br/><br/>
-  <img src="./screenshots/main2.png" width="100%" alt="Главная страница (продолжение)" />
+  <img src="./main2.png" width="100%" alt="Главная страница (продолжение)" />
   <br/><br/>
-  <img src="./screenshots/fridge.png" width="49%" alt="Подбор по ингредиентам" />
-  <img src="./screenshots/recipe.png" width="49%" alt="Страница рецепта" />
+  <img src="./fridge.png" width="49%" alt="Подбор по ингредиентам" />
+  <img src="./recipe.png" width="49%" alt="Страница рецепта" />
   <br/><br/>
-  <img src="./screenshots/articles.png" width="100%" alt="Статьи" />
+  <img src="./articles.png" width="100%" alt="Статьи" />
   <br/><br/>
-  <img src="./screenshots/admin.png" width="100%" alt="Админ-панель" />
-  <img src="./screenshots/admin1.png" width="100%" alt="Продолжение" />
-  <img src="./screenshots/admin1.png" width="100%" alt="Продолжение" />
+  <img src="./admin.png" width="100%" alt="Админ-панель" />
+  <br/><br/>
+  <img src="./admin1.png" width="49%" alt="Админ-панель 1" />
+  <img src="./admin2.png" width="49%" alt="Админ-панель 2" />
 </div>
 
 <br/>
