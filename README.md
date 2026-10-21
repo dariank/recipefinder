@@ -9,16 +9,16 @@
 ##  Скриншоты
 
 <div align="center">
-  <img src="./main.png" width="100%" alt="Главная страница" />
+  <img src="./main.png" width="90%" alt="Главная страница" />
   <br/><br/>
-  <img src="./main2.png" width="100%" alt="Главная страница (продолжение)" />
+  <img src="./main2.png" width="90%" alt="Главная страница (продолжение)" />
   <br/><br/>
-  <img src="./fridge.png" width="49%" alt="Подбор по ингредиентам" />
-  <img src="./recipe.png" width="49%" alt="Страница рецепта" />
+  <img src="./fridge.png" width="90%" alt="Подбор по ингредиентам" />
+  <img src="./recipe.png" width="90%" alt="Страница рецепта" />
   <br/><br/>
-  <img src="./articles.png" width="100%" alt="Статьи" />
+  <img src="./articles.png" width="90%" alt="Статьи" />
   <br/><br/>
-  <img src="./admin.png" width="100%" alt="Админ-панель" />
+  <img src="./admin.png" width="90%" alt="Админ-панель" />
   <br/><br/>
   <img src="./admin1.png" width="49%" alt="Админ-панель 1" />
   <img src="./admin2.png" width="49%" alt="Админ-панель 2" />
