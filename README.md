@@ -9,22 +9,45 @@
 ##  Скриншоты
 
 <div align="center">
-  <img src="./main.png" width="90%" alt="Главная страница" />
+  <img src="./mainrecipe.png" width="100%" alt="Главная страница" />
   <br/><br/>
-  <img src="./main2.png" width="90%" alt="Главная страница (продолжение)" />
+  
+  <img src="./main.png" width="100%" alt="Главная страница" />
   <br/><br/>
-  <img src="./fridge.png" width="90%" alt="Подбор по ингредиентам" />
-  <img src="./recipe.png" width="90%" alt="Страница рецепта" />
+  
+  <img src="./main2.png" width="100%" alt="Главная страница (продолжение)" />
   <br/><br/>
-  <img src="./articles.png" width="90%" alt="Статьи" />
+  
+  <img src="./fridge.png" width="100%" alt="Подбор по ингредиентам" />
   <br/><br/>
-  <img src="./admin.png" width="90%" alt="Админ-панель" />
+  
+  <img src="./recipe.png" width="100%" alt="Страница рецепта" />
   <br/><br/>
-  <img src="./admin1.png" width="49%" alt="Админ-панель 1" />
-  <img src="./admin2.png" width="49%" alt="Админ-панель 2" />
+  
+  <img src="./articles.png" width="100%" alt="Статьи" />
+  <br/><br/>
+  
+  <img src="./myprofile.png" width="100%" alt="Личный кабинет" />
+  <br/><br/>
+  
+  <img src="./searchrecipe.png" width="100%" alt="Поиск рецептов" />
+  <br/><br/>
+  
+  <img src="./likerecipe.png" width="100%" alt="Избранное" />
+  <br/><br/>
+  
+  <img src="./footerrecipe.png" width="100%" alt="Подвал сайта" />
+  <br/><br/>
+  
+  <img src="./admin.png" width="100%" alt="Админ-панель" />
+  <br/><br/>
+  
+  <img src="./admin1.png" width="100%" alt="Админ-панель 1" />
+  <br/><br/>
+  
+  <img src="./admin2.png" width="100%" alt="Админ-панель 2" />
+  <br/><br/>
 </div>
-
-<br/>
 
 ## О проекте
 
