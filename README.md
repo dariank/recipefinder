@@ -9,43 +9,43 @@
 ##  Скриншоты
 
 <div align="center">
-  <img src="./mainrecipe.png" width="100%" alt="Главная страница" />
+  <img src="./screenshots/mainrecipe.png" width="100%" alt="Главная страница" />
   <br/><br/>
   
-  <img src="./main.png" width="100%" alt="Главная страница" />
+  <img src="./screenshots/main.png" width="100%" alt="Главная страница" />
   <br/><br/>
   
-  <img src="./main2.png" width="100%" alt="Главная страница (продолжение)" />
+  <img src="./screenshots/main2.png" width="100%" alt="Главная страница (продолжение)" />
   <br/><br/>
   
-  <img src="./fridge.png" width="100%" alt="Подбор по ингредиентам" />
+  <img src="./screenshots/fridge.png" width="100%" alt="Подбор по ингредиентам" />
   <br/><br/>
   
-  <img src="./recipe.png" width="100%" alt="Страница рецепта" />
+  <img src="./screenshots/recipe.png" width="100%" alt="Страница рецепта" />
   <br/><br/>
   
-  <img src="./articles.png" width="100%" alt="Статьи" />
+  <img src="./screenshots/articles.png" width="100%" alt="Статьи" />
   <br/><br/>
   
-  <img src="./myprofile.png" width="100%" alt="Личный кабинет" />
+  <img src="./screenshots/myprofile.png" width="100%" alt="Личный кабинет" />
   <br/><br/>
   
-  <img src="./searchrecipe.png" width="100%" alt="Поиск рецептов" />
+  <img src="./screenshots/searchrecipe.png" width="100%" alt="Поиск рецептов" />
   <br/><br/>
   
-  <img src="./likerecipe.png" width="100%" alt="Избранное" />
+  <img src="./screenshots/likerecipe.png" width="100%" alt="Избранное" />
   <br/><br/>
   
-  <img src="./footerrecipe.png" width="100%" alt="Подвал сайта" />
+  <img src="./screenshots/footerrecipe.png" width="100%" alt="Подвал сайта" />
   <br/><br/>
   
-  <img src="./admin.png" width="100%" alt="Админ-панель" />
+  <img src="./screenshots/admin.png" width="100%" alt="Админ-панель" />
   <br/><br/>
   
-  <img src="./admin1.png" width="100%" alt="Админ-панель 1" />
+  <img src="./screenshots/admin1.png" width="100%" alt="Админ-панель 1" />
   <br/><br/>
   
-  <img src="./admin2.png" width="100%" alt="Админ-панель 2" />
+  <img src="./screenshots/admin2.png" width="100%" alt="Админ-панель 2" />
   <br/><br/>
 </div>
 
