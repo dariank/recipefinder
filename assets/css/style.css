@@ -1939,7 +1939,6 @@ details[open] { border-color: #f48c06; box-shadow: 0 4px 15px rgba(244, 140, 6, 
     border-radius: 2px;
 }
 
-/* Красивые маркированные списки */
 .article-content ul {
     list-style: none;
     padding-left: 0;
@@ -1952,7 +1951,6 @@ details[open] { border-color: #f48c06; box-shadow: 0 4px 15px rgba(244, 140, 6, 
     margin-bottom: 16px;
 }
 
-/* Кастомная галочка вместо стандартного кружка */
 .article-content ul li::before {
     content: '✓';
     position: absolute;
@@ -1981,4 +1979,121 @@ details[open] { border-color: #f48c06; box-shadow: 0 4px 15px rgba(244, 140, 6, 
     border-radius: 0 12px 12px 0;
     font-family: 'Jost', sans-serif;
     box-shadow: 0 4px 15px rgba(244, 140, 6, 0.05);
+}
+
+@media (max-width: 1024px) {
+    /* Сетки карточек */
+    .recipe-grid.grid-4, 
+    .category-grid, 
+    .nutrition-grid-bottom,
+    .articles-grid {
+        grid-template-columns: repeat(2, 1fr) !important; /* По 2 в ряд */
+    }
+    
+    /* Баннер */
+    .hero-banner-wide h1 { font-size: 42px; }
+    .promo-white { flex-direction: column; text-align: center; gap: 30px; }
+    .promo-white-image { width: 200px; height: 200px; }
+    .accordion-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    
+    /* Рецепт: ингредиенты и шаги в одну колонку */
+    .recipe-layout { grid-template-columns: 1fr !important; }
+    .recipe-sidebar { margin-bottom: 30px; }
+}
+
+@media (max-width: 768px) {
+    /* Общие настройки */
+    body { font-size: 15px; }
+    .container { padding: 16px; }
+    .page-title { font-size: 26px; margin-bottom: 16px; }
+
+    .header-container {
+        flex-wrap: wrap;
+        padding: 10px 16px;
+        gap: 12px;
+    }
+
+    .logo { font-size: 22px; margin-bottom: 4px; }
+    
+    .header-actions {
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .nav-links {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    
+    .nav-link {
+        flex: 1;
+        justify-content: center;
+        padding: 10px 4px;
+        font-size: 13px;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    /* Поиск */
+    .header-search { max-width: 100%; width: 100%; }
+
+    /* Блок авторизации */
+    .auth-block {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 4px;
+    }
+    
+    .user-profile-badge { width: 100%; justify-content: space-between; }
+    .login-btn { width: 100%; justify-content: center; }
+    .hero-banner-wide { padding: 40px 20px; border-radius: 20px; }
+    .hero-banner-wide h1 { font-size: 32px; }
+    .hero-banner-wide p { font-size: 16px; }
+    .hero-btn-new { width: 100%; justify-content: center; padding: 14px; font-size: 16px; }
+    
+    .floating-icon { display: none; }
+
+    .recipe-grid.grid-4 { grid-template-columns: 1fr !important; } /* По одной в ряд */
+    
+    .recipe-image-placeholder { height: 200px; }
+    .recipe-content h3 { font-size: 18px; }
+
+    .filters-row form { flex-direction: column; align-items: stretch; }
+    .filter-select { width: 100%; }
+    .filter-reset { text-align: center; margin: 10px 0 0 0; display: block; }
+
+    .recipe-main-image-wrapper { height: 250px; border-radius: 16px; }
+    .recipe-header-meta { flex-wrap: wrap; gap: 12px; font-size: 14px; }
+    .ingredients-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+    
+    .nutrition-grid-bottom { grid-template-columns: 1fr !important; }
+    
+    .step-item { flex-direction: column; gap: 10px; }
+    .step-number { width: 32px; height: 32px; font-size: 16px; }
+    .articles-grid { grid-template-columns: 1fr !important; }
+    .article-image { height: 200px; }
+    .article-content { font-size: 16px; }
+    .accordion-grid { grid-template-columns: 1fr !important; }
+    .accordion-content .ing-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    .form-actions { flex-direction: column; gap: 12px; }
+    .form-actions .btn-primary { width: 100% !important; }
+    .promo-white { padding: 30px 20px; }
+    .promo-white-content h2 { font-size: 26px; }
+    .promo-white-content p { font-size: 15px; }
+    .footer-container { grid-template-columns: 1fr !important; text-align: center; gap: 30px; }
+    .footer-links a, .footer-socials { justify-content: center; }
+    .footer-bottom-content { flex-direction: column; text-align: center; gap: 10px; }
+}
+
+@media (max-width: 480px) {
+    .nav-link { font-size: 11px; }
+    .nav-link i { font-size: 16px; }
+    .btn-primary { font-size: 15px; padding: 12px 20px; }
+
+    .accordion-content .ing-grid { grid-template-columns: 1fr !important; }
 }
